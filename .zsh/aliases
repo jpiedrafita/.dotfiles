@@ -1,0 +1,21 @@
+# config
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias configlog="config log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias configpush='config push -u origin master'
+alias configadd="source ~/.zsh/configadd"
+
+# git
+alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+
+# shell
+alias update="source ~/.zshrc"
+alias myip="curl http://ipecho.net/plain; echo"
+alias usage='du -h -d1'
+alias runp="lsof -i"
+alias topten="history | commands | sort -rn | head"
+alias dirs='dirs -v | head -10'
+alias open="code"
+alias lll="ls -la"
+alias size="du -sh"
+
